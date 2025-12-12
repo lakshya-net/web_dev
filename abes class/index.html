@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
-    
+ <meta charset="UTF-8">
+ <title>Simple Navigation Menu</title>
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <span style="display:grid;row-gap:20px;grid-template-rows: repeat(3, 1fr); border:2px solid black;">
-  <span> hello world</span>
-  <span> hello world</span>
-  <span> hello world</span>
-  <span> hello world</span>
-  <span> hello world</span>
-  </span>
+ <!-- Block Example -->
+ <header>
+ My <span>Website</span> Navigation
+ </header>
+ <!-- Inline-block Example -->
+ <nav class="inline-block-menu">
+ <ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">About</a></li>
+ <li><a href="#">Services</a></li>
+ <li><a href="#">Contact</a></li>
+ </ul>
+ </nav>
+ <!-- Float + Clear Example -->
+ <nav class="float-menu">
+ <ul>
+ <li><a href="#">Dashboard</a></li>
+ <li><a href="#">Profile</a></li>
+ <li><a href="#">Messages</a></li>
+ <li><a href="#">Logout</a></li>
+ </ul>
+ <div class="clear"></div>
+ </nav>
 </body>
 </html>
