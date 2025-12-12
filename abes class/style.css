@@ -5,6 +5,8 @@ header {
  padding: 10px;
  text-align: center;
 }
+
+
 .inline-block-menu a {
  display: inline-block;
  margin-right: 10px;
