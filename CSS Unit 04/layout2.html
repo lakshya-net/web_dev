@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Layout 2</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        html,* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        #box{
+            width: 1200px;
+            height: 200px;
+            background-color: burlywood;
+        }
+        .box{
+            width: 380px;
+            height: 200px;
+            background-color: coral;
+            margin: 10px;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header> <div id="box">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            </div>
+        </header>
+
+        <section><h2>Section</h2></section>
+
+        <footer><h2>Footer</h2></footer>
+
+    </main>
+</body>
+</html>
