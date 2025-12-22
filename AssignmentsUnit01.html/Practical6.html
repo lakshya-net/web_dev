@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopEasy</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #eef0f5;
+        }
+        .header {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .card {
+            background-color: white;
+            width: 380px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: left;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .desc {
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .price {
+            font-size: 18px;
+            color: green;
+            font-weight: bold;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #888;
+            margin-left: 10px;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #0056c7;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">ShopEasy</div>
+
+    <div class="container">
+        <div class="card">
+            <img src="data:image/jpeg;base64,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" alt="T-Shirt" />
+
+            <div class="title">Sporty T-Shirt</div>
+            <div class="desc">Soft,Comfortable, breathable cotton. Regular fit. Available in multiple colors and Sizes</div>
+
+            <span class="price">₹699</span>
+            <span class="old-price">₹999</span>
+
+            <button class="btn">Add to Cart</button>
+        </div>
+    </div>
+
+</body>
+</html>
