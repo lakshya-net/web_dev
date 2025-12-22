@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            width:1200px;
+            height: auto;
+            background-color: aqua;
+            margin: 0 auto;
+            display: grid;
+            grid-template-rows: 100px 240px auto 260px;
+            gap: 10px 20px;
+        }
+
+        .box{
+            background-color: yellow;
+        }
+        .box:nth-child(4){
+            background-color: orange;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+        }
+
+        .box4{
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit illum consectetur, optio alias hic eius ea at distinctio nam recusandae fugiat veniam quos corrupti nobis, necessitatibus maxime fugit? Architecto, dignissimos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nihil qui explicabo vel doloremque dolores voluptatum architecto. Qui, nostrum, aliquid nemo libero vero dolores totam sed facilis porro voluptates deleniti!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex velit eum corrupti illum amet similique recusandae aperiam ea repudiandae, id consectetur quasi corporis voluptate provident eaque eius nam aliquid cumque.
+    </p></div>
+    <div class="box">
+    <div class="box">4</div>
+    <div class="box4">4</div>
+    </div>
+    
+</body>
+</html>
