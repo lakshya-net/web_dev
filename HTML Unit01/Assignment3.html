@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <fieldset>
+        <label>Your Name</label>
+        <input type="text" name="" id="" placeholder="Enter Your full Name" required>
+        <br><br>
+        <label>Contact No.</label>
+        <input type="number" name="" id="" placeholder="Enter Your Contact No.">
+         <br><br>
+         <label>Email Id</label>
+         <input type="email"" name="" id="" placeholder="Enter Your Email Id" required>
+         <br><br>
+         <label>Age</label>
+         <input type="number" name="" id="" placeholder="Enter Your Age" required>
+         <br><br>
+         <label>Gender</label>
+         <input type="radio" name="Gender" id="" required> Male
+        <input type="radio" name="Gender" id="" required> Female
+        <br><br>
+        <label>Your Branch</label>
+        <input list="Branch">
+        <datalist id="Branch">
+            <option value="CSE">
+            <option value="ECE">
+            <option value="MECH">
+            <option value="CIVIL">
+            <option value="IT">
+                </datalist>
+            <br><br>
+            <label>Your Subjects</label>
+            <input type="checkbox" name="" id=""> Maths
+            <input type="checkbox" name="" id=""> Physics
+            <input type="checkbox" name="" id=""> Chemistry  
+            <input type="checkbox" name="" id=""> Other 
+            <br><br>
+            <label>Your DOB</label>
+            <input type="date" name="" id="">
+            <br><br>
+                <label>Your Address</label>
+                <textarea name="" id="" placeholder="Enter Your full Address" cols="30" rows="5"></textarea>
+                <br><br>
+                <label>Your Password</label>
+                <input type="password" name="" id="" placeholder="Enter Your Password">
+                <br><br>
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="Reset Form">
+            </fieldset>
+</body>
+</html>
