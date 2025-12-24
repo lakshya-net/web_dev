@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: #131921;
+    color: white;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar input {
+    flex: 1;
+    padding: 8px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+    background: #e3e6e6;
+}
+
+.box {
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+}
+
+footer {
+    background: #131921;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
